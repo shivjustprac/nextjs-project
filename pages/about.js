@@ -1,8 +1,9 @@
+import Layout from './Mylayout';
 
-const About = () => (
-  <div>
-    <p>About Next.js</p>
-  </div>
-)
-
-export default About
+export default function About() {
+  return (
+    <Layout>
+      <p>This is the about page</p>
+    </Layout>
+  );
+}
