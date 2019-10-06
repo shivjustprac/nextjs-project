@@ -4,15 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev" : "next"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+<<<<<<< HEAD
+    "next": "^9.0.8",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2"
+=======
     "next": "^6.1.1",
     "react": "^16.4.1",
     "react-dom": "^16.4.2"
+>>>>>>> 54bcbc88499fb925fb59074c3e4caa087106e7a1
   }
 }
